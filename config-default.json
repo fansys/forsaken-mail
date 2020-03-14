@@ -4,5 +4,12 @@
     "port": 25,
     "disableWebhook": true
   },
-  "host": "disposable.dhc-app.com"
+  "host": "disposable.dhc-app.com",
+  "save_mail": false,
+  "shortid": {
+    "character": "a-zA-Z0-9",
+    "min_length": 4,
+    "max_length": 20,
+    "try_times": 5
+  }
 }
